@@ -1,4 +1,4 @@
-# Customer_Account_Analysis_Pipeline_Vani
+
 # Retail Sales Data Pipeline - Bootcamp Project 1
 
 ## Objective
