@@ -1,0 +1,43 @@
+Bootcamp Project 1
+
+Objective
+
+The objective of Day 3 was to clean, validate, and transform Bronze data into Silver Parquet datasets using Azure Data Factory Mapping Data Flows.
+
+Data Flows Created
+- df_clean_customers
+- df_clean_products
+- df_clean_product_category
+- df_clean_orders
+- df_clean_sales
+
+Transformations Implemented
+- Null validation
+- Primary key validation
+- Duplicate removal
+- Data type conversion
+- Column filtering
+- CSV to Parquet conversion
+
+Silver Outputs Generated
+- Silver Layer Datasets
+ - silver/customers
+ - silver/products
+ - silver/product_category
+ - silver/orders
+ - silver/sales
+
+Outputs were generated in compressed Parquet format.
+
+Validation Performed
+- Row count validation
+- Output verification
+- Pipeline validation
+- Monitor validation
+
+Key Learnings
+- ADF Mapping Data Flows
+- Spark-based transformations
+- Parquet optimization
+- Data validation techniques
+- Silver layer processing
