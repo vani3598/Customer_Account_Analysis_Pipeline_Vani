@@ -1,0 +1,44 @@
+Retail Sales Data Pipeline - Day 2 Implementation
+
+Bootcamp Project 1
+
+Objective
+
+The objective of Day 2 was to set up the Azure environment and implement the ingestion layer for the project.
+
+- Azure Resources Created
+- Resource Group
+- Azure Data Lake Storage Gen2
+- Azure SQL Database
+- Azure Data Factory
+- Azure Key Vault
+- Storage Containers Created
+  - Bronze : Stores raw ingested data.
+  - Silver : Stores cleaned and transformed Parquet datasets.
+  - Gold :  Stores business-ready reporting datasets.
+
+SQL Tables Created
+- customers
+- products
+- product_category
+- orders
+- sales
+
+Linked Services Configured
+- Azure SQL Database
+- ADLS Gen2
+- Azure Key Vault
+- REST API
+
+Pipelines Created
+- Bronze Ingestion Pipelines
+  - SQL to Bronze
+  - CSV to Bronze
+  - API to SQL Landing
+
+Key Learnings
+- Azure resource configuration
+- Linked Service setup
+- ADF pipeline orchestration
+- Bronze layer ingestion process
+Secure credential handling using Key Vault
