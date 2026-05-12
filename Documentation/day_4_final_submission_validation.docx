@@ -1,0 +1,50 @@
+Bootcamp Project 1
+
+Objective
+
+The objective of Day 4 was to create Gold business summary datasets, load reporting tables into Azure SQL Database, and finalize project documentation and GitHub submission.
+
+Gold Data Flows Created
+- df_gold_sales_summary
+- df_gold_category_sales
+- df_gold_top_products
+
+Gold Business Outputs:
+sales_summary_gold
+- daily sales KPI summary.
+category_sales_summary_gold
+- Sales performance aggregated by category.
+top_products_gold
+- Top-performing products based on quantity and revenue.
+
+Gold to SQL Reporting Pipeline
+- Pipeline Created
+ - pl_gold_to_sql_reporting
+Copy Activities
+- copy_sales_summary_to_sql
+- copy_category_sales_to_sql
+- copy_top_products_to_sql
+
+SQL Reporting Validation
+Validation queries were executed to confirm:
+- successful data loading
+- correct row counts
+- reporting data accuracy
+- Power BI Integration
+
+Azure SQL reporting tables were connected to Power BI for dashboard creation and reporting.
+
+Final Deliverables Uploaded
+- Documentation
+- SQL Scripts
+- Screenshots
+- ADF ARM Template / JSON
+- Architecture Diagram
+- README File
+
+Key Learnings
+- Gold layer business modeling
+- Reporting table creation
+- Gold to SQL ingestion
+- Business KPI aggregation
+- GitHub project documentation
